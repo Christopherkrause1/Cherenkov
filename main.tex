@@ -6,7 +6,7 @@
 
 % Load packages you need here
 \usepackage{polyglossia}
-\setmainlanguage{german}
+\setmainlanguage{english}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{csquotes}
 \usepackage{siunitx}
@@ -41,7 +41,7 @@
 \title{\Large{Cherenkov Detectors}}
 \author[C.~Krause]{\normalsize{Christopher Krause}}
 %\institute[E4]{\normalsize{Experimentelle Physik IV} \\ \normalsize{Fakultät Physik}}
-\titlegraphic{\includegraphics[width=0.67\textwidth]{images/tudo-title-2.jpg}}
+\titlegraphic{\includegraphics[width=0.5\textwidth]{images/title_picture.png}}
 
 
 \begin{document}
@@ -56,11 +56,42 @@
     \item Electromagnetic radiation of a charged particle in a dielectric medium, which moves
     faster than the phase speed of light in that medium
   \end{itemize}
-%  \begin{figure}
-%      \includegraphics[width=0.53\textwidth]{images/interface.PNG}
-%  \caption{Interface zur Berechnung von $N_{\mathrm{eff}}$ und $\alpha$.}
-%  \end{figure}
+  \begin{figure}
+      \subfigure[]{\includegraphics[width=0.25\textwidth]{images/cherenkov.PNG}}
+      \hspace{1cm}
+      \subfigure[]{\includegraphics[width=0.25\textwidth]{images/reactor.PNG}}
+  \caption{Schematic cherenkov radiation (a) and blue glow of an underwater nuclear plant (b).}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Cherenkov radiation}
+  \begin{itemize}
+    \item Light in the medium is absorbed and reemitted, slowing it down by the delay between those events
+    \medskip
+    \item Intensity is approximately proportional to the frequency of the light in the visible spectrum \\
+    \rightarrow Cherenkov radiation is seen as blue
+    \medskip
+    \item Occurrence of Cherenkov radiation:
+      \begin{itemize}
+        \item Cosmic ray and high-energy photons can interact with the atmosphere and create electron-positron pairs with high velocities
+        \medskip
+        \item In pool-type nuclear reactors high-energy electrons are released as the fission products decay
+        \medskip
+        \item Imaging substances in a body through positron/beta emitters ($^{18}F$, $^{32}P$)
+      \end{itemize}
+  \end{itemize}
 \end{frame}
 
 
+\begin{frame}{Cherenkov light in the atmosphere}
+  \begin{figure}
+    \includegraphics[width=0.35\textwidth]{images/cherenkov_cone.png}
+    \caption{Shematic representation of an iron nucleus producing an air shower and cherenkov light.}
+  \end{figure}
+\end{frame}
+\begin{frame}{IceCube}
+  \begin{itemize}
+    \item bla
+  \end{itemize}
+\end{frame}
 \end{document}
