@@ -54,7 +54,7 @@ Key experiments in particle physics}}
   \begin{itemize}
     \item Discovered by Pavel Cherenkov in 1934 around a radioactive preparation in water (1958 Nobel Prize)
     \item Theory was developed in 1937 by Igor Tamm and Ilya Frank (1958 Nobel Prize)
-    \item Electromagnetic radiation of a charged particle in a dielectric medium, which moves
+    \item Electromagnetic radiation of a dielectric medium, when a charged particle moves
     faster than the phase speed of light in that medium
   \end{itemize}
   \begin{figure}
@@ -67,27 +67,23 @@ Key experiments in particle physics}}
 
 \begin{frame}{Cherenkov radiation}
   \begin{itemize}
-    \item Light in the medium is absorbed and reemitted, slowing it down by the delay between those events
+    \item Asymmetric polarisation of the medium results in a radiation of light due to relaxation
     \medskip
     \item Intensity is approximately proportional to the frequency of the light in the visible spectrum \\
     \rightarrow Cherenkov radiation is seen as blue
     \medskip
-    \item Occurrence of Cherenkov radiation:
-      \begin{itemize}
-        \item Cosmic ray and high-energy photons can interact with the atmosphere and create electron-positron pairs with high velocities
-        \medskip
-        \item In pool-type nuclear reactors high-energy electrons are released as the fission products decay
-        \medskip
-        \item Imaging substances in a body through positron/beta emitters ($^{18}F$, $^{32}P$)
-      \end{itemize}
+    %\item Occurrence of Cherenkov radiation:
+      %\begin{itemize}
+      %  \item Cosmic ray and high-energy photons can interact with the atmosphere and create electron-positron pairs with high velocities
+      %  \medskip
+      %  \item In pool-type nuclear reactors high-energy electrons are released as the fission products decay
+      %  \medskip
+      %  \item Imaging substances in a body through positron/beta emitters ($^{18}F$, $^{32}P$)
+      %\end{itemize}
   \end{itemize}
-\end{frame}
-
-
-\begin{frame}{Cherenkov light in the atmosphere}
   \begin{figure}
-    \includegraphics[width=0.35\textwidth]{images/cherenkov_cone.png}
-    \caption{Shematic representation of an iron nucleus producing an air shower and cherenkov light.}
+    \includegraphics[width=0.4\textwidth]{images/polarisation.png}
+    \caption{Polarisation of a dielectric medium at a particle velocity smaller (left) and greater (right) than the speed of light.}
   \end{figure}
 \end{frame}
 
@@ -120,6 +116,13 @@ How it works:
   \end{figure}
 \end{frame}
 
+\begin{frame}{Cherenkov light in the atmosphere}
+  \begin{figure}
+    \includegraphics[width=0.35\textwidth]{images/cherenkov_cone.png}
+    \caption{Shematic representation of an iron nucleus producing an air shower and cherenkov light.}
+  \end{figure}
+\end{frame}
+
 \begin{frame}{The first Cherenkov detector in a particle accelerator}
   \begin{itemize}
     \item Used to detect single particles at the Birmingham proton synchrotron in 1956
@@ -129,7 +132,7 @@ How it works:
 
 How it works:
 \begin{itemize}
-  \item A cone with a top angle $\Phi$ functions as radiator
+  \item A cone (acrylic plastic) with a top angle $\Phi$ functions as radiator
   \medskip
   \item Only Cherenkov light emitted at an angle $\Theta = \Phi$ will be focused by the lens through the collimator and measured by the
   photomultiplier
@@ -140,6 +143,62 @@ How it works:
 \end{figure}
 \end{frame}
 
+\begin{frame}{Specific radiators for threshold detectors}
+  \begin{itemize}
+    \item Velocity of light in a medium decreases with increasing refractive index of the medium
+    \medskip
+    \item Threshold detectors use specific mediums to distinguish different particles
+    \medskip
+    \item Discovery of the antiproton was due to the help of a threshold detector
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Ring Imaging Cherenkov (RICH) detector}
+  \begin{itemize}
+    \item First Cherenkov detector to measure velocity of particles
+    \medskip
+    \item J. S\'{e}guinot and T. Ypsilantis designed the first RICH detector in 1976
+  \end{itemize}
+\vspace{0.5cm}
+How it works:
+\begin{itemize}
+  \item Consists of a spherical detector and mirror with a radiator inbetween
+  \medskip
+  \item Incoming particles emit Cherenkov light between detector and a mirror
+  \medskip
+  \item Light is reflected onto photo sensitive detector
+  \medskip
+  \item Ring shaped reflections enable calculation of velocity ($\Theta = 2 \frac{R_c}{R}$)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{First RICH detector}
+  \begin{figure}
+    \includegraphics[width=0.55\textwidth]{images/rich.png}
+    \caption{Shematic representation of the first Ring Imaging Cherenkov detector.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Modern RICH detector}
+  \begin{itemize}
+    \item Used in the DELPHI experiment at cern until 2001
+    \medskip
+    \item RICH detector worked with two radiators to cover a larger momentum range
+  \end{itemize}
+  \begin{figure}
+    \includegraphics[width=0.45\textwidth]{images/rich_delphi.png}
+    \caption{RICH detector in the DELPHI experiment using two radiators and one photon detector. The Cherenkov light is projected on both
+    sides of the detector.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{The DELPHI experiment}
+  \begin{figure}
+    \includegraphics[width=0.55\textwidth]{images/delphi.jpg}
+    \caption{Representation of the DELPHI experiment with it's components. The yellow zylindrical component is the RICH detector.}
+  \end{figure}
+\end{frame}
 
 \begin{frame}{Imaging Atmospheric Cherenkov Telescope (IACT)}
   \begin{itemize}
@@ -172,7 +231,7 @@ How they work:
 
 \begin{frame}{IceCube}
   \begin{itemize}
-    \item Neutrino observatory at the Amundsen–Scott South Pole Station in Antarctica
+    \item Neutrino observatory at the Amundsen–Scott South Pole Station in Antarctica (completed in 2010)
     \medskip
     \item Measures high energy neutrinos in the range of 100 GeV to several PeV
   \end{itemize}
@@ -201,17 +260,19 @@ How they work:
 
 \begin{frame}{Super-Kamiokande}
   \begin{itemize}
-    \item Cylindrical water tank with 40 m height and diameter in Japan
+    \item Cylindrical water tank with 40 m height and diameter in Japan (operates since 1996)
     \medskip
     \item Functions similar to IceCube
+    \medskip
+    \item Nobel Prize for proof of neutrino oscillation (2015)
   \end{itemize}
   \begin{figure}
     \includegraphics[width=0.5\textwidth]{images/kamiokande.png}
-    \caption{Inside of Super-Kamiokande 1000 meter underground with 13000 photomultipliers.}
+    \caption{Inside of Super-Kamiokande, 1000 meter underground, with 13000 photomultipliers.}
   \end{figure}
 \end{frame}
 
-
+%\begin{frame}{}
 
 
 
