@@ -49,6 +49,19 @@ Key experiments in particle physics}}
 
 \maketitle
 
+\begin{frame}{Overview}
+  \begin{large}
+    \Large \textbf{Cherenkov radiation} \\
+    \vspace{0.5cm}
+    \textbf{The first Cherenkov detector} \\
+    \vspace{0.5cm}
+    \textbf{Differential and RICH detectors} \\
+    \vspace{0.5cm}
+    \textbf{Imaging atmospheric Cherenkov telescopes} \\
+    \vspace{0.5cm}
+    \textbf{Neutrino observatories: IceCube and Super-Kamiokande} \\
+\end{large}
+\end{frame}
 
 \begin{frame}{Cherenkov radiation}
   \begin{itemize}
@@ -69,7 +82,7 @@ Key experiments in particle physics}}
   \begin{itemize}
     \item Asymmetric polarisation of the medium results in a radiation of light due to relaxation
     \medskip
-    \item Intensity is approximately proportional to the frequency of the light in the visible spectrum \\
+    \item Intensity is approximately proportional to the frequency of light in the visible spectrum \\
     \rightarrow Cherenkov radiation is seen as blue
     \medskip
     %\item Occurrence of Cherenkov radiation:
@@ -112,14 +125,14 @@ How it works:
 \begin{frame}{The first Cherenkov detector}
   \begin{figure}
     \includegraphics[width=0.28\textwidth]{images/the_first.png}
-    \caption{Shematic representation of the first Cherenkov counter to measure cosmic ray.}
+    \caption{Shematic representation of the first Cherenkov counter to measure cosmic ray. \cite{gaseous}}
   \end{figure}
 \end{frame}
 
 \begin{frame}{Cherenkov light in the atmosphere}
   \begin{figure}
     \includegraphics[width=0.35\textwidth]{images/cherenkov_cone.png}
-    \caption{Shematic representation of an iron nucleus producing an air shower and cherenkov light.}
+    \caption{Shematic representation of an iron nucleus producing an air shower and cherenkov light \cite{hess}.}
   \end{figure}
 \end{frame}
 
@@ -155,7 +168,7 @@ How it works:
     \includegraphics[width=0.39\textwidth]{images/proton.png}
     \caption{Cherenkov detector designed and used by Owen
      Chamberlain and Emilio Segré (Nobel Prize 1959), as well as Thomas Ypsilantis and Clyde Wiegand.
-     Pions radiated Cherenkov light in the fused quartz, while antiprotons did not.}
+     Pions radiated Cherenkov light in the fused quartz, while antiprotons did not \cite{gaseous}.}
   \end{figure}
 \end{frame}
 
@@ -163,7 +176,7 @@ How it works:
 \begin{frame}{Cherenkov angle vs particle momentum}
   \begin{figure}
     \includegraphics[width=0.55\textwidth]{images/angle_momentum.png}
-    \caption{The Cherenkov angle as a function of a particles momentum for specific refactive indices.}
+    \caption{The Cherenkov angle as a function of a particles momentum for specific refactive indices \cite{hep}.}
   \end{figure}
 \end{frame}
 
@@ -312,7 +325,7 @@ How they work:
   \end{itemize}
   \begin{figure}
     \includegraphics[width=0.7\textwidth]{images/reconstruction.png}
-    \caption{Reconstruction of the original direction of the gamma particle.}
+    \caption{Reconstruction of the original direction of the gamma particle \cite{iact}.}
   \end{figure}
 \end{frame}
 
@@ -359,9 +372,10 @@ How they work:
   \begin{itemize}
     \item Cylindrical water tank with 40 m height and diameter in Japan (operates since 1996)
     \medskip
-    \item Functions similar to IceCube
+    \item Uses same principle as IceCube
     \medskip
-    \item Nobel Prize for proof of neutrino oscillation (2015)
+    \item Photomultipliers positioned at the wall
+    %\item Nobel Prize for proof of neutrino oscillation (2015)
   \end{itemize}
   \begin{figure}
     \includegraphics[width=0.5\textwidth]{images/kamiokande.png}
@@ -369,15 +383,63 @@ How they work:
   \end{figure}
 \end{frame}
 
-%\begin{frame}{}
+\begin{frame}{Results of the Neutrino Observatory}
+\textbf{Icecube}
+ \begin{itemize}
+   \item Measurement of a non terrestial neutrino flux (2013)
+   \medskip
+   \item Detection of the highest neutrino energies (up to 2.6 PeV)
+   \medskip
+   \item Identification of two high energy neutrino sources, both being blazars (2016, 2018)
+ \end{itemize}
+\vspace{0.5cm}
+\textbf{Super-Kamiokande}
+  \begin{itemize}
+    \item Measurement of atmospheric neutrinos and solar neutrinos, indicating a solar neutrino deficit
+    \medskip
+    \item Discovery of neutrino oscillation (Nobel Prize 2015)
+    \medskip
+    \item On going search for proton decay (largest observatory to do so)
+  \end{itemize}
+\end{frame}
 
 
 
-%\begin{frame}{References}
-%  \item https://www.mpi-hd.mpg.de/hfm/HESS/pages/about/telescope
-%  \item Position sensitive gaseous photomultipliers: Research and apllications
-%I. Adam et al. /Nuclear Instruments and Methods in Physics Research A 538 (2005)
-%By Reculet - made this diagram using ProFit on a MacPreviously published: not published, CC BY-SA 3.0, https://en.wikipedia.org/w/index.php?curid=37764289
-%\end{frame}
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \bibliographystyle{amsalpha}
+     \begin{thebibliography}{10}
+        \beamertemplatebookbibitems
+        \bibitem{kolanoski}
+          H. Kolanoksi, N. Wermes
+          \newblock {\em Teilchendetektoren}.
+          \newblock  Springer-Verlag Berlin Heidelberg 2016
+
+        \bibitem{handbook}
+          B. Ratcliff, J. Schwiening
+          \newblock {\em Handbook of Particle Detection and Imaging}.
+          \newblock  Springer-Verlag Berlin Heidelberg 2016
+
+        \bibitem{gaseous}
+          T. Francke, V. Peskov
+          \newblock {\em Position-Sensitive Gaseous Photomultipliers: Research and Applications}.
+          \newblock  IGI Global, 2016
+          \beamertemplatearticlebibitems
+          \bibitem{iact}
+            H. J. Völk, K. Bernlöhr
+            \newblock Imaging Very High Energy Gamma-Ray Telescopes
+            \newblock {\em arXiv.org}, 2008
+
+          \bibitem{hep}
+            C. Lippmann
+            \newblock Particle identification
+            \newblock {\em arXiv.org}, 2012
+
+          \bibitem{hess}
+             H.E.S.S. collaboration
+            \newblock A different type of "source" - Iron nuclei among cosmic rays
+            \newblock {\em H.E.S.S High Energy Stereoscopic System}, 2006
+      \end{thebibliography}
+\end{frame}
 
 \end{document}
