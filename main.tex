@@ -11,7 +11,7 @@
 \usepackage{csquotes}
 \usepackage{siunitx}
 \usepackage{subfigure}
-
+\usepackage{chronology}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}
@@ -53,7 +53,7 @@ Key experiments in particle physics}}
   \begin{large}
     \Large \textbf{Cherenkov radiation} \\
     \vspace{0.5cm}
-    \textbf{The first Cherenkov detector} \\
+    \textbf{Threshold detectors} \\
     \vspace{0.5cm}
     \textbf{Differential and RICH detectors} \\
     \vspace{0.5cm}
@@ -74,7 +74,7 @@ Key experiments in particle physics}}
       \subfigure[]{\includegraphics[width=0.25\textwidth]{images/cherenkov.PNG}}
       \hspace{1cm}
       \subfigure[]{\includegraphics[width=0.25\textwidth]{images/reactor.PNG}}
-  \caption{Schematic representation of cherenkov radiation (a) and the blue glow of an underwater nuclear plant (b).}
+  \caption{Schematic representation of cherenkov radiation (a) and the blue glow of an underwater nuclear plant (b) \cite{cone}\cite{atr}.}
   \end{figure}
 \end{frame}
 
@@ -96,13 +96,15 @@ Key experiments in particle physics}}
   \end{itemize}
   \begin{figure}
     \includegraphics[width=0.4\textwidth]{images/polarisation.png}
-    \caption{Polarisation of a dielectric medium at a particle velocity smaller (left) and greater (right) than the speed of light.}
+    \caption{Polarisation of a dielectric medium at a particle velocity smaller (left) and greater (right) than the speed of light \cite{kolanoski}.}
   \end{figure}
 \end{frame}
 
 
 
 \begin{frame}{The first constructed Cherenkov detector}
+  \begin{columns}
+  \begin{column}{0.5\textwidth}
   \begin{itemize}
     \item First Cherenkov counter was developed by J. V. Jelley in 1951
     \medskip
@@ -113,21 +115,29 @@ Key experiments in particle physics}}
 How it works:
   \begin{itemize}
     \item Distilled water in a cylinder functions as the radiator
-    \medskip
+
     \item One side of the cylinder is connected to a photomultiplier
     \medskip
     \item Followed by a preamplifier to increase the signals
     \medskip
     \item Detector is direction sensitive as Cherenkov light is only emitted in the foward direction
   \end{itemize}
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}
+      \includegraphics[width=0.5\textwidth]{images/the_first.png}
+      \caption{Shematic representation of the first Cherenkov counter to measure cosmic ray. \cite{gaseous}}
+    \end{figure}
+  \end{column}
+  \end{columns}
 \end{frame}
 
-\begin{frame}{The first Cherenkov detector}
-  \begin{figure}
-    \includegraphics[width=0.28\textwidth]{images/the_first.png}
-    \caption{Shematic representation of the first Cherenkov counter to measure cosmic ray. \cite{gaseous}}
-  \end{figure}
-\end{frame}
+%\begin{frame}{The first Cherenkov detector}
+%  \begin{figure}
+%    \includegraphics[width=0.28\textwidth]{images/the_first.png}
+%    \caption{Shematic representation of the first Cherenkov counter to measure cosmic ray. \cite{gaseous}}
+%  \end{figure}
+%\end{frame}
 
 \begin{frame}{Cherenkov light in the atmosphere}
   \begin{figure}
@@ -156,7 +166,7 @@ How it works:
 \end{figure}
 \end{frame}
 
-\begin{frame}{Threshold detectors}
+\begin{frame}{Improved threshold detectors}
   \begin{itemize}
     \item Velocity of light in a medium decreases with increasing refractive index of the medium
     \medskip
@@ -176,7 +186,7 @@ How it works:
 \begin{frame}{Cherenkov angle vs particle momentum}
   \begin{figure}
     \includegraphics[width=0.55\textwidth]{images/angle_momentum.png}
-    \caption{The Cherenkov angle as a function of a particles momentum for specific refactive indices \cite{hep}.}
+    \caption{The Cherenkov angle as a function of a particles momentum for specific refractive indices \cite{hep}.}
   \end{figure}
 \end{frame}
 
@@ -196,6 +206,8 @@ How it works:
 \end{frame}
 
 \begin{frame}{Ring Imaging Cherenkov (RICH) detector}
+  \begin{columns}
+  \begin{column}{0.5\textwidth}
   \begin{itemize}
     \item First Cherenkov detector to measure velocity of particles
     \medskip
@@ -210,16 +222,24 @@ How it works:
   \medskip
   \item Light is reflected onto photo sensitive detector
   \medskip
-  \item Ring shaped reflections enable calculation of velocity ($\Theta = 2 \frac{R_c}{R}$)
+  \item Ring shaped reflections enable calculation of velocity (approximately $\Theta = 2 \frac{R_c}{R}$)
 \end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+  \begin{figure}
+    \includegraphics[width=1\textwidth]{images/rich.png}
+    \caption{Shematic representation of the first Ring Imaging Cherenkov detector \cite{gaseous}.}
+  \end{figure}
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{First RICH detector}
-  \begin{figure}
-    \includegraphics[width=0.55\textwidth]{images/rich.png}
-    \caption{Shematic representation of the first Ring Imaging Cherenkov detector.}
-  \end{figure}
-\end{frame}
+%\begin{frame}{First RICH detector}
+%  \begin{figure}
+%    \includegraphics[width=0.55\textwidth]{images/rich.png}
+%    \caption{Shematic representation of the first Ring Imaging Cherenkov detector \cite{gaseous}.}
+%  \end{figure}
+%\end{frame}
 
 \begin{frame}{Modern RICH detector}
   \begin{itemize}
@@ -260,7 +280,7 @@ How it works:
 \begin{frame}{The DELPHI experiment}
   \begin{figure}
     \includegraphics[width=0.55\textwidth]{images/delphi.jpg}
-    \caption{Representation of the DELPHI experiment with it's components. The yellow zylindrical component is the RICH detector.}
+    \caption{Representation of the DELPHI experiment with it's components. The yellow zylindrical component is the RICH detector \cite{delphi}.}
   \end{figure}
 \end{frame}
 
@@ -273,16 +293,16 @@ How it works:
     \item Identifies particles up to 4.2 GeV/c
   \end{itemize}
   \begin{figure}
-    \includegraphics[width=0.45\textwidth]{images/dirc.png}
+    \includegraphics[width=0.42\textwidth]{images/dirc.png}
     \caption{Side view of the DIRC. With the Cherenkov angle and the momentum calculated with the tracking chambers, the
-    particles mass can be determined}
+    particles mass can be determined \cite{gaseous}}
   \end{figure}
 \end{frame}
 
 \begin{frame}{The BaBar experiment}
   \begin{figure}
     \includegraphics[width=0.55\textwidth]{images/babar.jpg}
-    \caption{The BaBar experiment with it's components highlighted.}
+    \caption{The BaBar experiment with it's components highlighted \cite{babar}.}
   \end{figure}
 \end{frame}
 
@@ -290,7 +310,7 @@ How it works:
   \begin{itemize}
     \item Telescopes to detect high energy gamma ray photons in the range of 50 GeV to 50 TeV
     \medskip
-    \item First IACT (Whipple 10m Telescope) was developed by the Whipple collaboration in 1968
+    \item First IACT (Whipple 10m Telescope) was developed by the Whipple collaboration in the early 1980
     \medskip
     \item Currently four operating IACT systems (MAGIC, VERITAS, MACE, H.E.S.S.)
   \end{itemize}
@@ -313,7 +333,7 @@ How they work:
       \subfigure[]{\includegraphics[width=0.45\textwidth]{images/shower.PNG}}
       \hspace{0.5cm}
       \subfigure[]{\includegraphics[width=0.45\textwidth]{images/shower_form.PNG}}
-      \caption{Differences between gamma and hadronic induced showers (a)  and their imaging in the camera of an IACT (b).}
+      \caption{Differences between gamma and hadronic induced showers (a)  and their imaging in the camera of an IACT (b) \cite{iact}.}
   \end{figure}
 \end{frame}
 
@@ -334,7 +354,7 @@ How they work:
       \subfigure[]{\includegraphics[width=0.48\textwidth]{images/magic.PNG}}
       \hspace{0.5cm}
       \subfigure[]{\includegraphics[width=0.3\textwidth]{images/hess.PNG}}
-  \caption{One of the MAGIC telescopes (a) and H.E.S.S. telescopes (b).}
+  \caption{One of the MAGIC telescopes (a) and H.E.S.S. telescopes (b) \cite{hess}.}
   \end{figure}
 \end{frame}
 
@@ -377,7 +397,7 @@ How they work:
 \begin{frame}{IceCube}
   \begin{figure}
     \includegraphics[width=0.55\textwidth]{images/icecube.png}
-    \caption{Structure of the neutrino detector IceCube.}
+    \caption{Structure of the neutrino detector IceCube \cite{neutrino}.}
   \end{figure}
 \end{frame}
 
@@ -397,7 +417,7 @@ How they work:
   \end{figure}
 \end{frame}
 
-\begin{frame}{Results of the Neutrino Observatory}
+\begin{frame}{Results of the Neutrino Observatories}
 \textbf{Icecube}
  \begin{itemize}
    \item Measurement of a non terrestial neutrino flux (2013)
@@ -416,6 +436,37 @@ How they work:
     \item On going search for proton decay (largest observatory to do so)
   \end{itemize}
 \end{frame}
+
+
+\begin{frame}{Summary}
+From the discovery of Cherenkov radiation in 1934, many different Cherenkov detectors were constructed and are used today:
+   \medskip
+ \begin{itemize}
+   \item Threshold detectors can distinguish between particles of different velocity (mostly $\pi$, k) \\
+   \rightarrow Used in earlier colider experiments (since 1951)
+   \medskip
+   \item RICH detectors help to identify charged particles and reconstruct their speed in a range of approximatey 0.5 to 150 GeV \\
+   \rightarrow Used in colider experiments (1971-today)
+   \medskip
+   \item IACTs can reconstruct gamma ray showers with high resolution to find extra terrestial of high gamma radiation \\
+   \rightarrow Used for gamma astronomy (1980-today)
+   \medskip
+   \item Neutrino observatories can measure Neutrinos and reconstruct their original direction and energy \\
+   \rightarrow Used in Neutrino astronomy and started with DUMAND (1976-today)
+ \end{itemize}
+   %\item 1934: Discovery of Cherenkov radiation
+   %\medskip
+   %\item 1937: Theory about Cherenkov radiation
+   %\medskip
+   %\item 1951: First useful Cherenkov detector, serves as threshold detector for atmospheric particles ($\pi$, k)
+   %\medskip
+   %\item 1976: Ypsilantis designed the first RICH detector to identify different particles
+   %\medskip
+   %\item 1980: Development of the IACT with the Whipple 10m Telescope to reconstruct atmospheric gamma ray showers
+   %\medskip
+   %\item 1996: Super-Kamiokande starts to operate
+\end{frame}
+
 
 
 
@@ -458,6 +509,31 @@ How they work:
              F. M. Rieger, E. de Ona-Wilhelmi, F. A. Aharonian
             \newblock TeV Astronomy
             \newblock {\em Front. Phys}, 2012
+
+          \bibitem{neutrino}
+             M. Ribordy
+            \newblock Methods and problems in neutrino observatories
+            \newblock {\em arXiv.org}, 2012
+
+          \bibitem{babar}
+            MCGill University
+            \newblock  BABAR EXPERIMENT AT SLAC
+            \newblock {\em physics.mcgill.ca}
+
+          \bibitem{delphi}
+            K. Cieslik
+            \newblock  The DELPHI detector at CERN's LEP collider
+            \newblock {\em DELPHI/CERN Homepage}
+
+          \bibitem{atr}
+            S. B. Grover F. M. Marshall
+            \newblock  Advanced Test Reactor Irradiation facilities and capabilities for the future
+            \newblock {\em archive.org/nuclear.inl.gov}
+
+          \bibitem{cone}
+            Y. Helo
+            \newblock  Cerenkov emission in radiotherapy
+            \newblock {\em semanticscholar.org}
       \end{thebibliography}
 \end{frame}
 
